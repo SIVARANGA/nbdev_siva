@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "nbdev_siva",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "nbdev_siva",
+    "section": "Install",
+    "text": "Install\npip install nbdev_siva"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "nbdev_siva",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\nCard(1,3)\n\n2"
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "nbdev_siva january-02 testing",
+    "section": "",
+    "text": "source"
+  },
+  {
+    "objectID": "core.html#here-we-are-importing-required-packages",
+    "href": "core.html#here-we-are-importing-required-packages",
+    "title": "nbdev_siva january-02 testing",
+    "section": "Here we are importing required packages",
+    "text": "Here we are importing required packages\n\nshowdoc - used to showup document\ntest =- to tesrt the line of code\nutils - fastcore proving different utils\n\nIntialize the suits and ranks - suits - symbols - ranks - numbers and alpha\n\nsuits = [\"$\",\"&\",\"%\",\"@\"]\nranks = [None,\"A\"]+[str(x) for x in range(2,11)]+[\"J\",\"Q\",\"K\"]\n\nDeclare Card class and declare parameters\n\nsource\n\nCard\n\n Card (suit:int, rank:int)\n\nA playing card created by passing in rank and suit as below\n\n\n\n\nType\nDetails\n\n\n\n\nsuit\nint\nAn index into ‘suite’\n\n\nrank\nint\nAn index into ‘ranks’\n\n\n\n\nc = Card(suit=1,rank=3)\n\nBelow function to check comparision equal or not\n\n@patch \ndef __eq__(self:Card,a:'Card'): return (self.suit,self.rank)==(a.suit,a.rank)\n\nBelow is example to showdoc for other imported methods also\n\nsource\n\n\nadd_props\n\n add_props (f, g=None, n=2)\n\nCreate properties passing each of range(n) to f\nHere checking less than or not\n\n@patch\ndef __lt__(self:Card,a:'Card'): return (self.suit,self.rank)<(a.suit,a.rank)\n\nChgecking for above function working functionality\n\nassert Card(suit=1,rank=3)<Card(suit=2,rank=3)\n\nChecking or comparing given values\n\n@patch\ndef __gt__(self:Card,a:'Card'): return (self.suit,self.rank)>(a.suit,a.rank)\n\nExamples for the wrote functions\n\nassert Card(suit=3,rank=3)>Card(suit=2,rank=3)\n\n\nassert not Card(suit=3,rank=3)<Card(suit=2,rank=3)"
+  },
+  {
+    "objectID": "core.html#example-for-plot-in-below",
+    "href": "core.html#example-for-plot-in-below",
+    "title": "nbdev_siva january-02 testing",
+    "section": "Example for plot in below",
+    "text": "Example for plot in below\nimport required packages to plot\nrequired plages imported in top\nPlot the required plot - plot - bar - pie"
+  }
+]
