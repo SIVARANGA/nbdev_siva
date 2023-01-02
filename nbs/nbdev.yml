@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "nbdev_siva"
+  site-url: "https://SIVARANGA.github.io/nbdev_siva"
+  description: "This is for testing nbdev setup dec29"
+  repo-branch: main
+  repo-url: "https://github.com/SIVARANGA/nbdev_siva"
